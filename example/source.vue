@@ -1,6 +1,6 @@
 <template lang="pug">
 div(ok)
-  h1(:class="$style.red") hello
+  h1.red hello
 </template>
 
 <script>
@@ -13,10 +13,9 @@ export default {
 }
 </script>
 
-<style module>
-.red {
-  color: red;
-}
+<style lang="stylus">
+.red
+  color red
 </style>
 
 <foo>
